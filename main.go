@@ -1,15 +1,16 @@
 package main
 
+// import "fmt"
+// import "github.com/iamsamitdev/golab/itgenius"
+
 import (
 	"fmt"
 
-	"github.com/iamsamitdev/golab/itgenius"
+	sample "github.com/iamsamitdev/golab/itgenius"
 )
 
 func main() {
 	fmt.Println("Hello, World!")
-	fmt.Println(itgenius.Add(10, 20))
-	itgenius.sayHello()
+	fmt.Println(sample.Add(10, 20))
+	fmt.Println(sample.Tiktok("Samit"))
 }
-
-
